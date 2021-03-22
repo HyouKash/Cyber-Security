@@ -15,4 +15,4 @@ def dechiffre(message_chiffre, masque):
     return new_message
         
 print(chiffre("Salut ca va", "AMASQUEVERYLONGBUTITSNORMAL"))
-print(dechiffre("[16, 36, 56, 33, 49, 112, 175, 51, 97, 37, 36]", "AMASQUEVERYLONGBUTITSNORMAL"))
+print(dechiffre("[18, 44, 45, 38, 37, 117, 38, 55, 101, 36, 56]", "AMASQUEVERYLONGBUTITSNORMAL"))
