@@ -14,5 +14,5 @@ def dechiffre(message_chiffre, masque):
         new_message.append(chr(a^ord(b)))
     return new_message
         
-print(chiffre("Salut ca va", "AMASQUEVERYLONGBUTITSNORMAL"))
+print(chiffre("Hi how are you", "AMASQUEVERYLONGBUTITSNORMAL"))
 print(dechiffre("[18, 44, 45, 38, 37, 117, 38, 55, 101, 36, 56]", "AMASQUEVERYLONGBUTITSNORMAL"))
